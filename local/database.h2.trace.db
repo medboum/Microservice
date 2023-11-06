@@ -1,0 +1,4 @@
+2023-11-05 10:37:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "APP_ROLE" non trouvée
+Table "APP_ROLE" not found; SQL statement:
+insert into app_role (id, role_name) values (null, ?) [42102-200]
