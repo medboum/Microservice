@@ -1,5 +1,6 @@
 package com.example.security.entities;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,8 +13,9 @@ public class AppUser {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
     private String username;
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY )
     private String password;
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     private Collection<AppRole> approles;
 
 }

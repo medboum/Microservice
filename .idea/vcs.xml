@@ -3,5 +3,10 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Microservice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/config-git-repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/config-git-repo/-config-git-repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/config-git-repo/Config-Git-Rep" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/config-git-repo/config-git-repo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/config-git-repo/https:/github.com/medboum/config-git-repo.git" vcs="Git" />
   </component>
 </project>

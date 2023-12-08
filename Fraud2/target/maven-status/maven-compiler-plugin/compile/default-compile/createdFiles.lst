@@ -1,6 +1,0 @@
-com/microservice/FraudCheckHistory.class
-com/microservice/FraudCheckHistoryService.class
-com/microservice/FraudCheckHistoryRepository.class
-com/microservice/FraudApplication.class
-com/microservice/FraudController.class
-com/microservice/FraudCheckHistory$FraudCheckHistoryBuilder.class

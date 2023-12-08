@@ -8,19 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
-        <module name="Fraud2" />
         <module name="security" />
+        <module name="config-service" />
+        <module name="account-service" />
+        <module name="customer-service" />
         <module name="eureka-server" />
-        <module name="customer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="fraud" target="17" />
+      <module name="Fraud2" target="18" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="account-service" options="-parameters" />
       <module name="api-gateway" options="" />
+      <module name="config-service" options="-parameters" />
       <module name="microservice" options="" />
     </option>
   </component>
