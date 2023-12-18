@@ -2,7 +2,7 @@ package com.example.account.entities;
 
 import com.example.account.enums.AccountType;
 import com.example.account.model.Customer;
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;

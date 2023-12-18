@@ -1,7 +1,6 @@
-com/microservice/customer/CustomerController.class
-com/microservice/customer/CustomerService.class
-com/microservice/customer/CustomerRegistrationRequest.class
-com/microservice/customer/CustomerRepository.class
-com/microservice/customer/Customer$CustomerBuilder.class
-com/microservice/customer/Customer.class
+com/microservice/customer/records/CustomerRegistrationRequest.class
+com/microservice/customer/web/CustomerController.class
+com/microservice/customer/repo/CustomerRepository.class
+com/microservice/customer/entities/Customer.class
+com/microservice/customer/entities/Customer$CustomerBuilder.class
 com/microservice/customer/CustomerApplication.class
